@@ -61,11 +61,9 @@ This project uses the **Malicious-Phish** dataset (651,191 URLs; sid321axn, 2021
 
 Cross-dataset domain adaptation experiments use **PhiUSIIL** (235,795 URLs; 100,945 legitimate, 134,850 phishing).
 
-## Model Checkpoints
+## Reproducibility
 
-Trained model checkpoints (PhishFormer, baselines, fine-tuned DistilBERT) are hosted separately due to file-size constraints:
-
-**[Hugging Face Hub — link to be added]**
+Trained model checkpoints are not distributed with this repository. All reported results are exactly reproducible from the provided code using the documented seeds (42, 123, 456) — see `src/train.py` and `src/multiseed_eval.py`.
 
 ## Reproducing Results
 
