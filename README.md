@@ -113,14 +113,12 @@ See `results/` for full per-model, per-class, and per-seed breakdowns, and the p
 
 If you use this code or refer to this work, please cite:
 
-```bibtex
-@article{hasan_phishformer,
-  title   = {When Attention Lies and Gradients Don't: Faithful Explanations and Multi-Class Threat Categorization for Malicious URL Detection},
-  author  = {Hasan, Md Mehedi},
-  journal = {Journal of Information Security and Applications},
-  note    = {Manuscript in review}
+@misc{hasan_phishformer,
+  title  = {When Attention Lies and Gradients Don't: Faithful Explanations and Multi-Class Threat Categorization for Malicious URL Detection},
+  author = {Hasan, Md Mehedi},
+  year   = {2026},
+  note   = {Preprint}
 }
-```
 
 ## Author
 
