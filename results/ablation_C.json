@@ -1,0 +1,10 @@
+{
+  "ablation": "C",
+  "four_class_accuracy": 0.9806294878961173,
+  "binary_accuracy": 0.9828976222212668,
+  "binary_macro_f1": 0.980981963600032,
+  "total_nonphish_malicious": 18425,
+  "correctly_distinguished": 18201,
+  "pct_distinguished": 98.7842605156038,
+  "binary_report": "              precision    recall  f1-score   support\n\n      benign     0.9851    0.9889    0.9870     61158\n   malicious     0.9786    0.9713    0.9749     31870\n\n    accuracy                         0.9829     93028\n   macro avg     0.9819    0.9801    0.9810     93028\nweighted avg     0.9829    0.9829    0.9829     93028\n"
+}

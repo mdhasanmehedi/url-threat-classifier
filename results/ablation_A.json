@@ -1,0 +1,25 @@
+{
+  "ablation": "A",
+  "obfuscated_subset_size": 30921,
+  "nonobf_subset_size": 62107,
+  "models": {
+    "PhishFormer": {
+      "full_macro_f1": 0.9728166112328396,
+      "obfuscated_macro_f1": 0.9854552500532313,
+      "nonobf_macro_f1": 0.9579773039663524,
+      "obf_margin": 0.027477946086878924
+    },
+    "CNN Only": {
+      "full_macro_f1": 0.9644107521365719,
+      "obfuscated_macro_f1": 0.9719592388828093,
+      "nonobf_macro_f1": 0.9515465253136873,
+      "obf_margin": 0.020412713569122
+    },
+    "Transformer Only": {
+      "full_macro_f1": 0.911757876170535,
+      "obfuscated_macro_f1": 0.9306937506002666,
+      "nonobf_macro_f1": 0.8828905020177342,
+      "obf_margin": 0.047803248582532376
+    }
+  }
+}

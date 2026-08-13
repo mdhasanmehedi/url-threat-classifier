@@ -1,0 +1,14 @@
+{
+  "ablation": "B",
+  "n_samples": 500,
+  "mask_ratio": 0.2,
+  "top_attention_drop_mean": 0.38601051563052463,
+  "top_attention_drop_std": 0.4581561360340278,
+  "random_drop_mean": 0.40792537938149603,
+  "random_drop_std": 0.46233507506352234,
+  "bottom_attention_drop_mean": 0.3486065439645974,
+  "bottom_attention_drop_std": 0.44793558086701063,
+  "wilcoxon_statistic": 56493.5,
+  "p_value": 0.878031202318078,
+  "faithful": false
+}

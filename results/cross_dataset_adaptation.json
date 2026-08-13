@@ -1,0 +1,29 @@
+{
+  "dataset": "PhiUSIIL",
+  "source_dataset": "Malicious-Phish",
+  "indist_accuracy": 0.9802,
+  "indist_macro_f1": 0.9725,
+  "conditions": {
+    "zero_shot": {
+      "accuracy": 0.5746093004516635,
+      "macro_f1": 0.3709074042587239,
+      "legitimate_f1": 0.012930652732264635,
+      "phishing_f1": 0.7288841557851832,
+      "n_train_samples": 0
+    },
+    "few_shot": {
+      "accuracy": 0.995024031665253,
+      "macro_f1": 0.9949121073641463,
+      "legitimate_f1": 0.994157482406055,
+      "phishing_f1": 0.9956667323222376,
+      "n_train_samples": 16505
+    },
+    "full_finetune": {
+      "accuracy": 0.9970031099802092,
+      "macro_f1": 0.996937215931193,
+      "legitimate_f1": 0.9964879729640183,
+      "phishing_f1": 0.9973864588983677,
+      "n_train_samples": 165056
+    }
+  }
+}
