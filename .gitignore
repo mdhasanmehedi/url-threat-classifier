@@ -1,1 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.bak
 
+# Raw datasets (third-party, downloadable separately)
+data/raw/
+
+# Model checkpoints (regenerable via training scripts; DistilBERT exceeds
+# GitHub's file-size limit without Git LFS)
+checkpoints/
+
+# Regenerable train/val/test splits (produced by dedup_group_split.py)
+splits_seed*/
